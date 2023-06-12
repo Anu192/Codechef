@@ -6,6 +6,6 @@ T = int(input())
 for _ in range(T):
     # Read the number of sets of squats
     X = int(input())
-    if X<400:print("YES")
+    if X*4<=1000:print("YES")
     else:print("NO")
     
